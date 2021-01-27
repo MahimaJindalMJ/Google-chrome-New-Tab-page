@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>New Tab</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <center>
+      <div class="container">
+        <img src="images/google.png" class="img-fluid" />
+        <div class="form-inline">
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="search-icon">
+                <img src="images/searchIcon.png" class="img-fluid" />
+              </span>
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search Google or type a URL"
+              id="searchString"
+              list="datalist"
+              name="option"
+              autocomplete="off"
+            />
+            <div class="input-group-append">
+              <span class="mic-icon">
+                <img
+                  src="images/mic.png"
+                  class="img-fluid"
+                  title="Search by Voice"
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+        <datalist id="datalist"></datalist>
+        <div class="row">
+          <div class="col-2">
+            <a href="https://youtube.com/">
+              <div class="tile-icon">
+                <img src="images/youtube.png" class="img-fluid" />
+              </div>
+              <span>YouTube</span>
+            </a>
+          </div>
+          <div class="col-2">
+            <a href="https://about.gitlab.com/">
+              <div class="tile-icon">
+                <img src="images/gitlab.png" class="img-fluid" />
+              </div>
+              <span>GitLab</span>
+            </a>
+          </div>
+          <div class="col-2">
+            <a href="https://www.google.com/gmail/">
+              <div class="tile-icon">
+                <img src="images/gmail.png" class="img-fluid" />
+              </div>
+              <span>Gmail</span>
+            </a>
+          </div>
+          <div class="col-2">
+            <a href="https://meet.google.com/">
+              <div class="tile-icon">
+                <img src="images/meet.png" class="img-fluid" />
+              </div>
+              <span>Google Meet</span>
+            </a>
+          </div>
+          <div class="col-2">
+            <a href="https://www.google.com/intl/en_in/drive/">
+              <div class="tile-icon">
+                <img src="images/drive.png" class="img-fluid" />
+              </div>
+              <span>Google Drive</span>
+            </a>
+          </div>
+          <div class="w-100"></div>
+          <div class="col-2">
+            <a href="https://business.amazon.in/">
+              <div class="tile-icon">
+                <img src="images/amazon_business.png" class="img-fluid" />
+              </div>
+              <span>Amazon</span>
+            </a>
+          </div>
+          <div class="col-2">
+            <a href="https://meet.google.com/">
+              <div class="tile-icon">
+                <img src="images/docs.png" class="img-fluid" />
+              </div>
+              <span>Google Docs</span>
+            </a>
+          </div>
+          <div class="col-2">
+            <a href="https://youtube.com/">
+              <div class="tile-icon">
+                <img src="images/whatsapp.png" class="img-fluid" />
+              </div>
+              <span>Whatsapp</span>
+            </a>
+          </div>
+          <div class="col-2">
+            <a href="https://facebook.com/">
+              <div class="tile-icon">
+                <img src="images/facebook.png" class="img-fluid" />
+              </div>
+              <span>Facebook</span>
+            </a>
+          </div>
+          <div class="col-2">
+            <a href="#">
+              <div class="tile-icon">
+                <img src="images/plus.png" class="img-fluid" />
+              </div>
+              <span>Add Shortcut</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </center>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #ffffff;
+}
+.container img {
+  vertical-align: middle;
+}
+.container .img-fluid {
+  margin-top: 15%;
+}
+.container .input-group {
+  width: 580px;
+  margin-top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+  border: 1px solid #ccc;
+}
+.input-group:focus {
+  box-shadow: 10px 8px 10px #888888;
+}
+.container .input-group .form-control {
+  height: auto;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+input::-webkit-calendar-picker-indicator {
+  display: none;
+}
+.container .input-group .input-group-prepend {
+  position: relative;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+.container .input-group .input-group-prepend img {
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+}
+.container .input-group .input-group-append {
+  position: relative;
+  border: none;
+  outline: none;
+  padding-right: 5px;
+}
+.container .input-group .input-group-append img {
+  border: none;
+  outline: none;
+  padding: 10px;
+}
+.container .row {
+  width: 500px;
+  height: 40px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.container .row .col-2 {
+  position: relative;
+  align-items: center;
+  width: 18%;
+}
+.col-2:focus {
+  box-shadow: slategray;
+}
+.tile-icon {
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+}
+.tile-icon .img-fluid {
+  padding: 5px;
+  padding-bottom: 5px;
+  position: relative;
+  width: 45px;
+  height: 45px;
+}
+.container .row .col-2 span {
+  font-size: 13px;
+}
